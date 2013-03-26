@@ -1,0 +1,90 @@
+/**
+ * Task Organizer Admin Stylesheet
+ * 
+ * @package    PyroCMS
+ * @subpackage Modules
+ * @author     Pascal Kleindienst
+ * @copyright  Copyright (c) 2013, Pascal Kleindienst
+ * @link       http://www.pascalkleindienst.de
+ * @license    LGPLv3
+ */
+table tr.soon-overdue td {
+	background: #ffd040 !important;
+}
+
+table tr.overdue td{
+	background: #d83a2e !important;
+	color: white;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+div.content.task {
+	overflow: hidden;
+}
+
+.task_deadline {
+	color: #878787;
+	text-shadow: 1px 1px 0 #fff;
+	float: right;
+	padding: 4px 16px;
+}
+
+em.last_login {
+	color: rgba(0, 0, 0, 0.35);
+}
+
+#task_creator {
+	float: left;
+	width: 150px;
+	margin-bottom: 16px;
+	line-height: 150%;
+	}
+
+	#task_creator img {
+		margin-bottom: 10px;
+		border-radius: 5px;
+	}
+	
+	#task_creator p > a {
+		display: inline-block;
+		margin-top: 10px;
+	}
+	
+#task_content {
+	float: left;
+}
+#task_content h5 {
+	font-weight: bold;
+	font-size: 110%;
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+#task_chat {
+	clear: both;
+	margin: -16px !important;
+	border-top: 1px dashed rgba(0, 0, 0, 0.35);
+}
+#task_chat li {
+	padding: 16px 16px 16px 166px;
+	border-bottom: 1px solid #ddd;
+	height: auto;
+	overflow: hidden;
+}
+
+#task_chat li.chat_form {
+	padding: 16px;
+}
+#task_chat li > div.message {
+	float: left;
+}
+
+#task_chat li > div.author {
+	float: right;
+	width: 150px;
+	line-height: 140%;
+	font-size: 90%;
+}
+#task_chat li > div.author > img {
+	border-radius: 3px;
+}
