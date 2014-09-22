@@ -26,11 +26,13 @@ class Module_Task_Organizer extends Module
 		return array(
 			'name' => array(
 				'de' => 'Aufgabenplaner',
-				'en' => 'Task Organizer'
+				'en' => 'Task Organizer',
+				'es' => 'Gestor de tareas',
 			),
 			'description' => array(
 				'de' => 'Ein kleines Modul mit den man noch zu erledigende Aufgaben managen kann',
-				'en' => 'A small Modul with whom you can manage tasks'
+				'en' => 'A small Modul with whom you can manage tasks',
+				'es' => 'Un pequeño módulo para gestionar tareas',
 			),
 			'frontend' => FALSE,
 			'backend'  => TRUE,
